@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee's Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4caf4c;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+        }
+        section {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        section h2 {
+            margin-top: 0;
+        }
+        section a {
+            display: block;
+            text-align: center;
+            margin-top: 1rem;
+            color: #4caf50;
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .contact-links ul {
+            list-style: none; 
+            padding: 0; 
+            margin: 0; 
+        }
+        .contact-links li {
+            margin-bottom: 0.5rem; 
+        }
+    </style>
+</head>
+<body>
+<header id="home">
+    <h1>Welcome to CyberShield Employee's Portal</h1>
+</header>
+
+<nav>
+    <a href="#dalitso-banda">Dalitso Banda</a>
+    <a href="#mercy-alexandra">Mercy Alexandra</a>
+    <a href="#bill-clinton">Bill Clinton</a>
+    <a href="#sean-combs">Sean Combs</a>
+    <a href="#about-us">About Us</a>
+</nav>
+
+<main>
+    <section id="dalitso-banda">
+        <h2>Dalitso Banda - Web Developer</h2>
+        <ul>
+            <li>Name: Dalitso Banda</li>
+            <li>Position: Web Developer</li>
+            <li>Department: IT</li>
+        </ul>
+        <a href="#home" class="back-to-home">Back to Home</a>
+    </section>
+
+    <section id="mercy-alexandra">
+        <h2>Mercy Alexandra - Software Engineer</h2>
+        <ul>
+            <li>Name: Mercy Alexandra</li>
+            <li>Position: Software Engineer</li>
+            <li>Department: IT</li>
+        </ul>
+        <a href="#home" class="back-to-home">Back to Home</a>
+    </section>
+
+    <section id="bill-clinton">
+        <h2>Bill Clinton - Data Scientist</h2>
+        <ul>
+            <li>Name: Bill Clinton</li>
+            <li>Position: Data Scientist</li>
+            <li>Department: Analytics</li>
+        </ul>
+        <a href="#home" class="back-to-home">Back to Home</a>
+    </section>
+
+    <section id="sean-combs">
+        <h2>Sean Combs - UX Designer</h2>
+        <ul>
+            <li>Name: Sean Combs</li>
+            <li>Position: UX Designer</li>
+            <li>Department: Design</li>
+        </ul>
+        <a href="#home" class="back-to-home">Back to Home</a>
+    </section>
+
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>We are a team of developers who are passionate about creating web applications that make a difference in the world.</p>
+        <div class="contact-links">
+            <p>Contact us at:</p>
+            <ul>
+                <li>Email: <a href="mailto:info@cybershield.com">info@cybershield.com</a></li>
+                <li>Phone: <a href="tel:+260763342705">+260 76 334 2705</a></li>
+            </ul>
+        </div>
+        <a href="#home" class="back-to-home">Back to Home</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 CyberShield. All rights reserved.</p>
+</footer>
+</body>
+</html>
